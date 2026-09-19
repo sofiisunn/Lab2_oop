@@ -15,6 +15,8 @@ public:
 	ShapeObjectsEditor();
 	~ShapeObjectsEditor();
 
+	void AddShape(Shape* shape);
+
 	void StartPointEditor();
 	void StartLineEditor();
 	void StartRectEditor();
